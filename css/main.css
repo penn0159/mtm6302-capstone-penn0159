@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+
+img{
+    width: 140px;
+    padding: 40px;
+    border-style: inset;
+    height: 150px;
+    border-color: blueviolet;
+
+    
+    
+}
+
+img:hover{
+    background-color: seagreen;
+    opacity: 0.1; transition: 0.2s;
+    position:sticky
+ 
+    
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
