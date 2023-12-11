@@ -1,0 +1,49 @@
+.Simisear{
+    height: 500px;
+    border-style: inset;
+    float: right;
+    margin-top: -500px;
+    margin-right: 1100px;
+    border-color: blueviolet;
+
+}
+
+.Fire{
+    font-size: 30px;
+    color: rgb(247, 56, 56);
+}
+
+.number{
+    font-size: 20px;
+}
+
+.Ember{
+    font-size: 20px
+
+}
+
+.heightno{
+    font-size: 20px;
+}
+
+.weightno{
+    font-size: 20px;
+}
+
+.Ability{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
